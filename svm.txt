@@ -1,0 +1,47 @@
+(base) rody@rody-B650-GAMING-X-AX:~/Documents/Module8-main$ python svm.py
+7.152557373046875e-07	 Loading Dataset
+21.014565467834473	 Cleaning Dataset
+62.22272276878357	 Encoding Dataset
+70.07419848442078	 Encoding labels
+71.04442644119263	 Saving encoded dataset to /home/rody/Documents/Module8-main/encoded_dataset.pkl
+74.36652874946594	 Splitting Test and Train Data
+77.46662497520447	 Performing StandardScaler
+85.06929683685303	 Setting up tensors
+86.27287888526917	 Training SVM
+286.67063164711	 Epoch [1/10], Loss: -3379.3857
+472.3273665904999	 Epoch [2/10], Loss: -6394.1621
+658.4128293991089	 Epoch [3/10], Loss: -8679.0273
+842.3846545219421	 Epoch [4/10], Loss: -13313.3320
+1029.1135952472687	 Epoch [5/10], Loss: -16886.5254
+1217.3038132190704	 Epoch [6/10], Loss: -20009.5684
+1404.5134646892548	 Epoch [7/10], Loss: -22670.8184
+1589.7515335083008	 Epoch [8/10], Loss: -24936.3613
+1773.6951460838318	 Epoch [9/10], Loss: -27855.7109
+1957.3860080242157	 Epoch [10/10], Loss: -33292.7031
+1957.386220216751	 Testing SVM
+2006.6885206699371	 SVM Metrics:
+Accuracy_train:	0.024944677086275062	Precision_train: 	0.01262598567179973
+Recall_train: 	0.33879039789103627	F1_train: 		0.024337592869333232
+AUC_train: 	0.3387903978910363
+Matrix_train: 
+[[  271346   129117]
+ [10477488        1]]
+Accuracy_test:	0.02488666984373529	Precision_test: 	0.012609891462219724
+Recall_test: 	0.3371125351200403	F1_test: 		0.024282398437874744
+AUC_test: 	0.3371125351200404
+Matrix_test: 
+[[  67678   32701]
+ [2619108       1]]
+2006.6887135505676	 Loading Dataset
+2006.8430452346802	 Cleaning Dataset
+2007.2865040302277	 Encoding Dataset
+2007.3593800067902	 Saving encoded dataset to /home/rody/Documents/Module8-main/encoded_dataset2.pkl
+2007.4056420326233	 Performing standardscaler for validation set
+2007.9164493083954	 Validation Accuracy: 0.0290
+Accuracy_validate:	0.029038519439088296	Precision_validate: 	0.014519538757206919
+Recall_validate: 	0.49966931216931215	F1_validate: 		0.028219079160337657
+AUC_validate: 	0.49966931216931215
+Matrix_validate: 
+[[  4533      3]
+ [151567      0]]
+

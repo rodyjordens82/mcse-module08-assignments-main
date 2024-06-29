@@ -1,0 +1,40 @@
+(base) rody@rody-B650-GAMING-X-AX:~/Documents/Module8-main$ python svm.py
+7.152557373046875e-07	 Loading encoded dataset from /home/rody/Documents/Module8-main/encoded_dataset.pkl
+0.4738898277282715	 Splitting Test and Train Data
+3.7481861114501953	 Performing StandardScaler
+11.65642786026001	 Setting up tensors
+12.906018733978271	 Training SVM
+213.52980995178223	 Epoch [1/10], Loss: -3264.5254
+403.14449667930603	 Epoch [2/10], Loss: -6675.6807
+596.2228047847748	 Epoch [3/10], Loss: -9644.4590
+790.203845500946	 Epoch [4/10], Loss: -13489.8770
+978.1332757472992	 Epoch [5/10], Loss: -17226.8164
+1156.8015472888947	 Epoch [6/10], Loss: -19876.0859
+1334.7072279453278	 Epoch [7/10], Loss: -22457.0879
+1512.320140361786	 Epoch [8/10], Loss: -26728.8828
+1692.8580708503723	 Epoch [9/10], Loss: -28441.0586
+1871.3464605808258	 Epoch [10/10], Loss: -33832.3984
+1871.3471310138702	 Testing SVM
+1925.2215917110443	 SVM Metrics:
+Accuracy_train:	0.02455149645815683	Precision_train: 	0.012431967750367512
+Recall_train: 	0.33336708361878814	F1_train: 		0.02396317371691585
+AUC_train: 	0.3333670836187882
+Matrix_train: 
+[[  267069   133494]
+ [10477388        1]]
+Accuracy_test:	0.02454248740939471	Precision_test: 	0.012439190373471042
+Recall_test: 	0.33278173040210984	F1_test: 		0.02395461762777065
+AUC_test: 	0.3327817304021098
+Matrix_test: 
+[[  66742   33537]
+ [2619208       1]]
+1925.221774339676	 Loading encoded dataset from /home/rody/Documents/Module8-main/encoded_dataset2.pkl
+1925.228168964386	 Performing standardscaler for validation set
+1925.7241380214691	 Validation Accuracy: 0.0290
+Accuracy_validate:	0.029038519439088296	Precision_validate: 	0.014519538757206919
+Recall_validate: 	0.49966931216931215	F1_validate: 		0.028219079160337657
+AUC_validate: 	0.49966931216931215
+Matrix_validate: 
+[[  4533      3]
+ [151567      0]]
+

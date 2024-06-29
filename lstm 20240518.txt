@@ -1,0 +1,42 @@
+(base) rody@rody-B650-GAMING-X-AX:~/Documents/Module8-main$ python lstm.py
+9.5367431640625e-07	 Loading Dataset
+20.504349946975708	 Cleaning Dataset
+61.46123123168945	 Encoding Dataset
+69.0370728969574	 Encoding labels
+70.02001309394836	 Saving encoded dataset to /home/rody/Documents/Module8-main/encoded_dataset.pkl
+72.40716171264648	 Splitting Test and Train Data
+75.57851910591125	 Performing StandardScaler
+83.1525514125824	 Converting to Tensors
+84.40766763687134	 Training model and optimizing
+363.4212462902069	 Epoch [1/5], Loss: 0.0002
+646.1727478504181	 Epoch [2/5], Loss: 0.0002
+930.3201968669891	 Epoch [3/5], Loss: 0.0007
+1214.4394311904907	 Epoch [4/5], Loss: 0.0001
+1499.2255640029907	 Epoch [5/5], Loss: 0.0004
+1646.0995244979858	 Test Accuracy: 99.89%
+Accuracy_train:	0.9299983121822931	Precision_train: 	0.5001118072587548
+Recall_train: 	0.5001087901416812	F1_train: 		0.5001064697599596
+AUC_train: 	0.5001087901416812
+Matrix_train: 
+[[   14437   386354]
+ [  375121 10102040]]
+Accuracy_test:	0.9989306810693778	Precision_test: 	0.9992622778064824
+Recall_test: 	0.9856452547318181	F1_test: 		0.9923519259634503
+AUC_test: 	0.9856452547318181
+Matrix_test: 
+[[  97180    2871]
+ [     37 2619400]]
+1646.099799156189	 Loading Dataset
+1646.3630104064941	 Cleaning Dataset
+1646.8257653713226	 Encoding Dataset
+1646.8994328975677	 Saving encoded dataset to /home/rody/Documents/Module8-main/encoded_dataset2.pkl
+1646.9344351291656	 Performing standardscaler for validation set
+1646.999127149582	 Converting validation set to tensors
+1648.9334571361542	 Validation Accuracy: 0.9585
+Accuracy_validate:	0.9584825403739838	Precision_validate: 	0.5002298594352179
+Recall_validate: 	0.5001064504112936	F1_validate: 		0.49863459877591776
+AUC_validate: 	0.5001064504112935
+Matrix_validate: 
+[[    61   4475]
+ [  2006 149561]]
+

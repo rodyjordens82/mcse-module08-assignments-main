@@ -1,0 +1,35 @@
+(base) rody@rody-B650-GAMING-X-AX:~/Documents/Module8-main$ python lstm.py
+2.384185791015625e-07	 Loading encoded dataset from /home/rody/Documents/Module8-main/encoded_dataset.pkl
+0.4592902660369873	 Splitting Test and Train Data
+3.438438892364502	 Performing StandardScaler
+11.26556944847107	 Converting to Tensors
+12.284026384353638	 Training model and optimizing
+290.0510835647583	 Epoch [1/5], Loss: 0.0005
+573.35325050354	 Epoch [2/5], Loss: 0.0005
+854.8904504776001	 Epoch [3/5], Loss: 0.0001
+1141.8253059387207	 Epoch [4/5], Loss: 0.0001
+1428.2777762413025	 Epoch [5/5], Loss: 0.0006
+1576.2148337364197	 Test Accuracy: 99.89%
+Accuracy_train:	0.9296543136060905	Precision_train: 	0.5000777265253029
+Recall_train: 	0.5000764512645435	F1_train: 		0.5000756829899838
+AUC_train: 	0.5000764512645435
+Matrix_train: 
+[[   14559   386023]
+ [  379194 10098176]]
+Accuracy_test:	0.9989420802739339	Precision_test: 	0.9966526928803751
+Recall_test: 	0.988400490951191	F1_test: 		0.9924891710030617
+AUC_test: 	0.9884004909511911
+Matrix_test: 
+[[  97956    2304]
+ [    573 2618655]]
+1576.215003490448	 Loading encoded dataset from /home/rody/Documents/Module8-main/encoded_dataset2.pkl
+1576.2309288978577	 Performing standardscaler for validation set
+1576.3061230182648	 Converting validation set to tensors
+1578.0594062805176	 Validation Accuracy: 0.9441
+Accuracy_validate:	0.9440753861232648	Precision_validate: 	0.499630652261086
+Recall_validate: 	0.4996377656232704	F1_validate: 		0.4996327575870418
+AUC_validate: 	0.4996377656232704
+Matrix_validate: 
+[[   126   4410]
+ [  4320 147247]]
+

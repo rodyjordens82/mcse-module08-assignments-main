@@ -1,0 +1,53 @@
+(base) rody@rody-B650-GAMING-X-AX:~/Documents/Module8-main$ python ann.py
+2.384185791015625e-07	 Loading encoded dataset from /home/rody/Documents/Module8-main/encoded_dataset.pkl
+0.47658324241638184	 Splitting test and train
+3.492584466934204	 Performing standardscaler
+11.349461317062378	 Converting to tensors
+12.544680118560791	 Initializing model
+12.54731822013855	 Defining loss model and optimizing
+12.833298206329346	 Training model and optimizing
+18.833012104034424	 Epoch [10/200], Loss: 0.5460972
+24.597206830978394	 Epoch [20/200], Loss: 0.4544349
+30.350019931793213	 Epoch [30/200], Loss: 0.3806255
+36.108951807022095	 Epoch [40/200], Loss: 0.3167997
+41.88729214668274	 Epoch [50/200], Loss: 0.2607118
+47.64388704299927	 Epoch [60/200], Loss: 0.2113670
+53.40373182296753	 Epoch [70/200], Loss: 0.1703645
+59.16116666793823	 Epoch [80/200], Loss: 0.1377069
+64.92239260673523	 Epoch [90/200], Loss: 0.1123450
+70.69526839256287	 Epoch [100/200], Loss: 0.0933675
+76.47607064247131	 Epoch [110/200], Loss: 0.0788841
+82.22637391090393	 Epoch [120/200], Loss: 0.0680714
+87.97554016113281	 Epoch [130/200], Loss: 0.0599432
+93.7117919921875	 Epoch [140/200], Loss: 0.0535975
+99.46135592460632	 Epoch [150/200], Loss: 0.0484395
+105.2139720916748	 Epoch [160/200], Loss: 0.0441790
+111.0035412311554	 Epoch [170/200], Loss: 0.0406273
+116.76897263526917	 Epoch [180/200], Loss: 0.0376464
+122.52514290809631	 Epoch [190/200], Loss: 0.0350601
+128.27735924720764	 Epoch [200/200], Loss: 0.0328168
+128.34775972366333	 Testing model
+135.5216383934021	 Test Accuracy: 0.9944
+Accuracy_train:	0.9944554820613292	Precision_train: 	0.9970756689103228
+Recall_train: 	0.9247245035723706	F1_train: 		0.9578373871909919
+AUC_train: 	0.9247245035723706
+Matrix_train: 
+[[  340065    60269]
+ [      44 10477574]]
+Accuracy_test:	0.9944088740233455	Precision_test: 	0.9970515125226456
+Recall_test: 	0.9244118769426364	F1_test: 		0.9576423838863587
+AUC_test: 	0.9244118769426364
+Matrix_test: 
+[[  85314   15194]
+ [     11 2618969]]
+135.5218048095703	 Loading encoded dataset from /home/rody/Documents/Module8-main/encoded_dataset2.pkl
+135.52776312828064	 Performing standardscaler for validation set
+135.58873748779297	 Converting validation set to tensors
+135.65996885299683	 Validation Accuracy: 0.9756
+Accuracy_validate:	0.9756442861444047	Precision_validate: 	0.9857467672483153
+Recall_validate: 	0.5812290804589315	F1_validate: 		0.6334955638226762
+AUC_validate: 	0.5812290804589315
+Matrix_validate: 
+[[   737   3799]
+ [     3 151564]]
+
